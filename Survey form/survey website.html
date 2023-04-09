@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Survey Form using HTML and CSS</title>
+
+	<link rel="stylesheet" href="survey.css">
+</head>
+<body>
+	<h1 style="color: ghostwhite;"> Online Personality Test Survey form </h1>
+
+	<!--  Creating a form  -->
+	<form id="form">
+		<div class="form-control">
+			<label for="name" id="label-name"> Name</label>
+			<input type="text" id="name" placeholder="Enter Your Name">
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email"> E-mail</label>
+			<input type="text" id="email" placeholder="Enter Your Email">
+		</div>
+
+
+		<div class="form-control">
+			<label for="age" id="label-age">Age</label>
+			
+			<!--  Dropdrwon arrow to select the age  -->
+
+			<select name="age" id="label-age">
+				<option value="Below 18">Below 18</option>
+				<option value="Between 18 to 25">Between 18 to 25</option>
+				<option value="Between 26 to 32">Between 26 to 32</option>
+				<option value="between 33 to 40">Between 33 to 40</option>
+				<option value="Above 40">Above 40</option>
+
+		</div>
+
+</select>
+		<div class="form-control">
+			<label for="gender" id="label-gender"> Gender</label>
+
+			<!--  Dropdown arrow to select the options -->
+
+			<select name="gender" id="label-gender">
+				<option value="Female">Female</option>
+				<option value="Male">Male</option>
+				<option value="Other">Other</option>
+			
+		</div>
+	</select>
+
+		<div class="form-control">
+			<label for="role" id= "label-role">
+			Which options best describes you?</label>
+
+			<!-- Dropdown arrow to select the options -->
+
+			<select name="role" id="label-role">
+				<option value="Student ">Student</option>
+				<option value="Intern ">Intern</option>
+				<option value="Professional ">Professional</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label> Would you recommand this PAT to your friends?</label>
+
+			<!-- Input tye radio button -->
+
+			<label for ="recommamd1">
+				<input type="radio" id="recommand1" name="recommand"> Yes</label>
+
+				<label for ="recommamd2">
+				<input type="radio" id="recommand2" name="recommand"> No</label>
+
+				<label for ="recommamd3">
+				<input type="radio" id="recommand3" name="recommand">Maybe</label>
+
+			</div>
+
+			<div class="form-control">
+				<h3 style="color: black;"> Insomnia Problem</h3>
+				
+				<label> Difficult Falling Asleep</label>
+				<label for="inp1">
+					<input type="radio" id="inp1" name="input"> None</label>
+
+					<label for="inp2">
+					<input type="radio" id="inp2" name="input"> Mild</label>
+
+					<label for="inp3">
+					<input type="radio" id="inp3" name="input"> Moderate</label>
+
+					<label for="inp4">
+					<input type="radio" id="inp4" name="input"> Severe</label>
+
+					<label for="inp5">
+					<input type="radio" id="inp5" name="input"> Very Severe</label>
+
+			</div>
+
+			<br>
+			<div class="form-control">
+				
+				
+				<label> Difficult Staying Asleep</label>
+				<label for="inp1">
+					<input type="radio" id="inp1" name="input1"> None</label>
+
+					<label for="inp2">
+					<input type="radio" id="inp2" name="input1"> Mild</label>
+
+					<label for="inp3">
+					<input type="radio" id="inp3" name="input1"> Moderate</label>
+
+					<label for="inp4">
+					<input type="radio" id="inp4" name="input1"> Severe</label>
+
+					<label for="inp5">
+					<input type="radio" id="inp5" name="input1"> Very Severe</label>
+
+			</div>
+
+			<br>
+			<div class="form-control">
+				
+				<label> Problem waking up too Early</label>
+				<label for="inp1">
+					<input type="radio" id="inp1" name="input2"> None</label>
+
+					<label for="inp2">
+					<input type="radio" id="inp2" name="input2"> Mild</label>
+
+					<label for="inp3">
+					<input type="radio" id="inp3" name="input2"> Moderate</label>
+
+					<label for="inp4">
+					<input type="radio" id="inp4" name="input2"> Severe</label>
+
+					<label for="inp5">
+					<input type="radio" id="inp5" name="input2"> Very Severe</label>
+
+			</div>
+
+			<br>
+			<div class="form-control">
+				
+				<label> How SATISIFIED/DISSATISFIED are you with your CURRENT sleep pattern</label>
+				<br>
+				<label for="inp1">
+					<input type="radio" id="inp1" name="input3"> Very Satisified</label>
+
+					<label for="inp2">
+					<input type="radio" id="inp2" name="input3">Satisified </label>
+
+					<label for="inp3">
+					<input type="radio" id="inp3" name="input3">Moderately Satisified</label>
+
+					<label for="inp4">
+					<input type="radio" id="inp4" name="input3">Dissatisified</label>
+
+					<label for="inp5">
+					<input type="radio" id="inp5" name="input3"> Very Dissatisified</label>
+
+			</div>
+			<br>
+
+			<div class="form-control">
+				
+				<label> How NOTICEABLE to others do you think your sleep problem is in terms of impairing the quality of your life</label>
+				<br>
+				<label for="inp1">
+					<input type="radio" id="inp1" name="input4">Not at all noticable</label>
+
+					<label for="inp2">
+					<input type="radio" id="inp2" name="input4">A little </label>
+
+					<label for="inp3">
+					<input type="radio" id="inp3" name="input4">Somewhat</label>
+
+					<label for="inp4">
+					<input type="radio" id="inp4" name="input4">Much</label>
+
+					<label for="inp5">
+					<input type="radio" id="inp5" name="input4"> Very Much Noticeable</label>
+
+			</div>
+			<br>
+
+			<div class="form-control">
+				
+				<label> How WORRIED/DISTRESSED are you about your current sleeping problem</label>
+				<br>
+				<label for="inp1">
+					<input type="radio" id="inp1" name="input5">Not at all Worried </label>
+
+					<label for="inp2">
+					<input type="radio" id="inp2" name="input5">A little </label>
+
+					<label for="inp3">
+					<input type="radio" id="inp3" name="input5">Somewhat</label>
+
+					<label for="inp4">
+					<input type="radio" id="inp4" name="input5">Much</label>
+
+					<label for="inp5">
+					<input type="radio" id="inp5" name="input5"> Very Much Worried</label>
+
+			</div>
+			<br>
+
+
+			<div class="form-control">
+				
+				<label>To what extent do you consider your sleep problem INTERFERE with your daily functioning </label>
+				<br>
+				<label for="inp1">
+					<input type="radio" id="inp1" name="input6"> Not at all Interfering</label>
+
+					<label for="inp2">
+					<input type="radio" id="inp2" name="input6">A little </label>
+
+					<label for="inp3">
+					<input type="radio" id="inp3" name="input6">Somewhat</label>
+
+					<label for="inp4">
+					<input type="radio" id="inp4" name="input6">Much</label>
+
+					<label for="inp5">
+					<input type="radio" id="inp5" name="input6"> Very Much Interfering</label>
+
+			</div>
+
+			<div class="form-control">
+				<label for="comment">
+				Any Feedabck or Suggestion</label>
+
+				<!--  multiline text input control -->
+
+				<textarea name="comment" id="comment" placeholder="Enter your Suggestions here"></textarea>
+			</div>
+
+			<!-- Multiline text input control -->
+
+			<button type="Submit" value="Submit">
+			Submit </button>
+		</div>
+	</form>
+
+	<footer>
+		<div class="center">
+			copyright &copy; www.PersonalityAssessmentTest.com All right reserved!
+
+	</footer>
+
+</body>
+</html>
